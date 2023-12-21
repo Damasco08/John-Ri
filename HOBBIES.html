@@ -1,0 +1,134 @@
+<html>
+    <head>
+	<style>
+	.container {
+        display:grid;
+		border:5px solid black;
+		grid-template-rows:1fr 3fr 1fr;
+		}
+	.header {
+	    background:gold;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:black;
+		display:flex;
+		flex-direction:column;
+	    font-size:1.5em;
+		text-align:center;
+		grid-column:span 1;
+	    }
+	.main {
+	    background:gray;
+	    font-size:1.5em;
+		text-align:center;
+		padding:10px;
+		grid-column:span 2;
+		}
+	.aside {
+	    background:gray;
+	    font-size:2em;
+		text-align:center;
+		}
+	.footer {
+	    background:gold;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+		}
+		
+	@media only screen and (max-width:600px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			 grid-template-columns: 1fr 3fr;
+		  grid-template-rows:1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+ 		    }
+		.header {
+	    background:gold;
+		font-size:3em;
+		text-align:center;
+		grid-column:span 3;
+		.nav {
+	    background:black;
+	    font-size:2em;
+	    text-align:center;
+            grid-column:span 1;
+			
+	    }
+	.main {
+	    background:gray;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 2;
+		}
+	.footer {
+	    background:gold;
+	    font-size:1em;
+		text-align:center;
+		grid-column:span 3;                                      
+	        padding:10px;
+		}
+		
+	 }
+	 @media only screen and (max-width:300px) {
+	    
+		.container{
+		    display:grid;
+			border:5px solid black;
+			 grid-template-rows:1fr 1fr 3fr 1fr;
+		  margin-right:auto;
+		  margin-left:auto;
+ 		    }
+		.header {
+	    background:gold;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		
+	    }
+	.nav {
+	    background:black;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.main {
+	    background:gray;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+	.footer {
+	    background:gold;
+	    font-size:2em;
+		text-align:center;                               
+	grid-column:span 3;
+		}
+	
+	
+	
+	    }
+	</style>
+	    <title>MY HOBBIES</title>
+	</head>
+<body>
+
+<div class=container>	
+   
+    <div class=header>MY HOBBIES</div>
+	<div class=nav><a href=index.html>MAIN PAGE</a>
+	<a href=ABOUT.html>ABOUT MYSELF</a><a href=FAVOURITES.html>MY FAVOURITES</a></div>
+	<div class=main>My hobbies are playing games, sports, doing house chores and more. 
+	<br>These hobbies can help me overcome times when I feel sad. Check the left side for informations about (MAIN PAGE, ABOUT MYSELF, MY FAVOURITES)</br></div>
+	<div class=footer><a href=README.html>By: John Richard S. Damasco From 9-Caravario</a></div>
+	
+	</div>
+</body>
+</html>	
